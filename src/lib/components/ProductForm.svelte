@@ -57,7 +57,7 @@
 			</label>
 		</div>
 		<details>
-			<summary role="button" class="secondary">Add special info</summary>
+			<summary class="secondary">Add special info</summary>
 			<input placeholder="Day of the week, for example" type="text" bind:value={specialInput} />
 		</details>
 		<button type="submit">Add</button>
