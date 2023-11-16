@@ -3,10 +3,10 @@
 	const suppliers = data.suppliers;
 </script>
 
-<h3>Choose</h3>
+<h4>Choose</h4>
 
 <ul>
-    {#each suppliers as { id, name } (id) }
-        <li><a href={`create/${id}`}>{name}</a></li>
-    {/each}
+	{#each suppliers as { id, name } (id)}
+		<li><a href={`create/${id}`}>{name}</a></li>
+	{/each}
 </ul>
